@@ -88,7 +88,9 @@ function sql_ok($sql, $test_name) {
 	if(empty($state[$SUITE_NAME])) $state[$SUITE_NAME] = 0;
 	++$state[$SUITE_NAME];
 
-	$r = 'r/' . $SUITE_NAME . "." .  md5($test_name . $sql . $state[$SUITE_NAME]) . '.result';
+	$fixed_sql = str_ireplace(array('MYISAM','COLUMNSTORE'),'',$sql); 
+
+	$r = 'r/' . $SUITE_NAME . "." .  md5($test_name . $fixed_sql . $state[$SUITE_NAME]) . '.result';
 
 
 	$stmt = $SQ->query($sql);
@@ -109,7 +111,7 @@ function sql_ok($sql, $test_name) {
 	}
 	if(!file_exists($r)) {
 		fail($test_name);
-		diag('Failure reason: result file is missing!');
+		diag('Failure reason: result file:' . $r .' is missing!');
 		return false;
 	}
 
@@ -117,7 +119,9 @@ function sql_ok($sql, $test_name) {
 	if($result !== $expected) { 
 		fail($test_name);
 		if($SQ->DAL->my_error()) diag("SQL:\n" . $SQ->DAL->my_error() . "\n");
-		echo "EXPECT: $expected\nRESULT: $result\n";
+		$e = print_r(unserialize($expected),true);
+		$r = print_r(unserialize($result),true);
+		echo "EXPECT: $e\nRESULT: $r\n";
 		return false;
 	}
 
@@ -134,7 +138,7 @@ function new_connection() {
 }
 
 function main() {
-	$params = get_commandline(array('tests==', 'record','engine=='));
+	$params = get_commandline(array('tests==', 'record','engine==','debug'));
 	global $SQ;
 	global $RECORD_MODE;
 	global $SUITE_NAME;
@@ -153,6 +157,11 @@ function main() {
 			$ENGINE=$params['engine'];
 		}
 	}
+
+	if(has_short_opt('debug',$params))
+		define('SQ_DEBUG',true);
+	else 
+		define('SQ_DEBUG',false);
 
 	#run the tests requested by the user
 	if(!empty($params['tests'])) {

@@ -1,0 +1,3604 @@
+Going to run: t_operators
+Running t_operators
+ok 1 - drop fact table
+ok 2 - create fact table
+ok 3 - row count
+INSERT INTO fact VALUES (1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+ok 4 - insert data iteration #1
+INSERT INTO fact VALUES (2,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128,-128);
+ok 5 - insert data iteration #2
+INSERT INTO fact VALUES (3,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127,-127);
+ok 6 - insert data iteration #3
+INSERT INTO fact VALUES (4,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126,-126);
+ok 7 - insert data iteration #4
+INSERT INTO fact VALUES (5,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126,126);
+ok 8 - insert data iteration #5
+INSERT INTO fact VALUES (6,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127);
+ok 9 - insert data iteration #6
+INSERT INTO fact VALUES (7,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128);
+ok 10 - insert data iteration #7
+INSERT INTO fact VALUES (8,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253);
+ok 11 - insert data iteration #8
+INSERT INTO fact VALUES (9,254,254,254,254,254,254,254,254,254,254,254,254,254,254,254,254,254,254,254,254,254,254,254,254,254,254);
+ok 12 - insert data iteration #9
+INSERT INTO fact VALUES (10,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255);
+ok 13 - insert data iteration #10
+INSERT INTO fact VALUES (11,'255','255','255','255','255','255','255','255','255','255','255','255','255','255','255','255','255','255','255','255','255','255','255','255','255','255');
+ok 14 - insert data iteration #11
+INSERT INTO fact VALUES (12,'-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128','-128');
+ok 15 - insert data iteration #12
+INSERT INTO fact VALUES (13,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0);
+ok 16 - insert data iteration #13
+INSERT INTO fact VALUES (14,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0);
+ok 17 - insert data iteration #14
+INSERT INTO fact VALUES (15,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555,-5555.5555);
+ok 18 - insert data iteration #15
+INSERT INTO fact VALUES (16,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555,-5555.55555);
+ok 19 - insert data iteration #16
+INSERT INTO fact VALUES (17,'-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555','-5555.5555');
+ok 20 - insert data iteration #17
+INSERT INTO fact VALUES (18,'-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555','-5555.55555');
+ok 21 - insert data iteration #18
+INSERT INTO fact VALUES (19,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555,55555.555);
+ok 22 - insert data iteration #19
+INSERT INTO fact VALUES (20,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295,4294967295);
+ok 23 - insert data iteration #20
+INSERT INTO fact VALUES (21,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295,-4294967295);
+ok 24 - insert data iteration #21
+INSERT INTO fact VALUES (22,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647);
+ok 25 - insert data iteration #22
+INSERT INTO fact VALUES (23,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647,-2147483647);
+ok 26 - insert data iteration #23
+INSERT INTO fact VALUES (24,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296,4294967295.4294967296);
+ok 27 - insert data iteration #24
+INSERT INTO fact VALUES (25,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296,-4294967295.4294967296);
+ok 28 - insert data iteration #25
+INSERT INTO fact VALUES (26,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600,18446744073709551600);
+ok 29 - insert data iteration #26
+INSERT INTO fact VALUES (27,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600,-18446744073709551600);
+ok 30 - insert data iteration #27
+INSERT INTO fact VALUES (28,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800,9223372036854775800);
+ok 31 - insert data iteration #28
+INSERT INTO fact VALUES (29,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800,-9223372036854775800);
+ok 32 - insert data iteration #29
+INSERT INTO fact VALUES (30,'0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f','0xdeadb33f');
+ok 33 - insert data iteration #30
+INSERT INTO fact VALUES (31,'swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany','swany');
+ok 34 - insert data iteration #31
+INSERT INTO fact VALUES (32,'????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????','????????????????????????????');
+ok 35 - insert data iteration #32
+INSERT INTO fact VALUES (33,'%','%','%','%','%','%','%','%','%','%','%','%','%','%','%','%','%','%','%','%','%','%','%','%','%','%');
+ok 36 - insert data iteration #33
+INSERT INTO fact VALUES (34,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890,12345678.1234567890);
+ok 37 - insert data iteration #34
+INSERT INTO fact VALUES (35,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890,-12344567.1234567890);
+ok 38 - insert data iteration #35
+INSERT INTO fact VALUES (36,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001,0.0000000001);
+ok 39 - insert data iteration #36
+INSERT INTO fact VALUES (37,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099,0.0000000099);
+ok 40 - insert data iteration #37
+INSERT INTO fact VALUES (38,'*','*','*','*','*','*','*','*','*','*','*','*','*','*','*','*','*','*','*','*','*','*','*','*','*','*');
+ok 41 - insert data iteration #38
+INSERT INTO fact VALUES (39,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1);
+ok 42 - insert data iteration #39
+INSERT INTO fact VALUES (40,'NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL','NOT NULL');
+ok 43 - insert data iteration #40
+INSERT INTO fact VALUES (41,'1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30','1978_04_30');
+ok 44 - insert data iteration #41
+INSERT INTO fact VALUES (42,'1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30','1978-04-30');
+ok 45 - insert data iteration #42
+INSERT INTO fact VALUES (43,'1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00','1978-04-30 2:22:00');
+ok 46 - insert data iteration #43
+INSERT INTO fact VALUES (44,'2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00','2:22:00');
+ok 47 - insert data iteration #44
+INSERT INTO fact VALUES (45,'1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345','1978-04-30 2:22:00.12345');
+ok 48 - insert data iteration #45
+ok 49 - count rows
+ok 50 - verify data for i1 at seq 1
+not ok 51 - verify data for i1 at seq 2
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1] => -128
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1] => -126
+        )
+
+)
+
+not ok 52 - verify data for i1 at seq 3
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1] => -127
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1] => -126
+        )
+
+)
+
+ok 53 - verify data for i1 at seq 4
+ok 54 - verify data for i1 at seq 5
+ok 55 - verify data for i1 at seq 6
+ok 56 - verify data for i1 at seq 7
+ok 57 - verify data for i1 at seq 8
+ok 58 - verify data for i1 at seq 9
+ok 59 - verify data for i1 at seq 10
+ok 60 - verify data for i1 at seq 11
+not ok 61 - verify data for i1 at seq 12
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1] => -128
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1] => -126
+        )
+
+)
+
+ok 62 - verify data for i1 at seq 13
+ok 63 - verify data for i1 at seq 14
+not ok 64 - verify data for i1 at seq 15
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1] => -128
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1] => -126
+        )
+
+)
+
+not ok 65 - verify data for i1 at seq 16
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1] => -128
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1] => -126
+        )
+
+)
+
+not ok 66 - verify data for i1 at seq 17
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1] => -128
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1] => -126
+        )
+
+)
+
+not ok 67 - verify data for i1 at seq 18
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1] => -128
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1] => -126
+        )
+
+)
+
+ok 68 - verify data for i1 at seq 19
+ok 69 - verify data for i1 at seq 20
+not ok 70 - verify data for i1 at seq 21
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1] => -128
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1] => -126
+        )
+
+)
+
+ok 71 - verify data for i1 at seq 22
+not ok 72 - verify data for i1 at seq 23
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1] => -128
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1] => -126
+        )
+
+)
+
+ok 73 - verify data for i1 at seq 24
+not ok 74 - verify data for i1 at seq 25
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1] => -128
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1] => -126
+        )
+
+)
+
+ok 75 - verify data for i1 at seq 26
+not ok 76 - verify data for i1 at seq 27
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1] => -128
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1] => -126
+        )
+
+)
+
+ok 77 - verify data for i1 at seq 28
+not ok 78 - verify data for i1 at seq 29
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1] => -128
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1] => -126
+        )
+
+)
+
+ok 79 - verify data for i1 at seq 30
+ok 80 - verify data for i1 at seq 31
+ok 81 - verify data for i1 at seq 32
+ok 82 - verify data for i1 at seq 33
+ok 83 - verify data for i1 at seq 34
+not ok 84 - verify data for i1 at seq 35
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1] => -128
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1] => -126
+        )
+
+)
+
+ok 85 - verify data for i1 at seq 36
+ok 86 - verify data for i1 at seq 37
+ok 87 - verify data for i1 at seq 38
+ok 88 - verify data for i1 at seq 39
+ok 89 - verify data for i1 at seq 40
+ok 90 - verify data for i1 at seq 41
+ok 91 - verify data for i1 at seq 42
+ok 92 - verify data for i1 at seq 43
+ok 93 - verify data for i1 at seq 44
+ok 94 - verify data for i1 at seq 45
+ok 95 - verify data for i2 at seq 1
+ok 96 - verify data for i2 at seq 2
+ok 97 - verify data for i2 at seq 3
+ok 98 - verify data for i2 at seq 4
+ok 99 - verify data for i2 at seq 5
+ok 100 - verify data for i2 at seq 6
+ok 101 - verify data for i2 at seq 7
+ok 102 - verify data for i2 at seq 8
+ok 103 - verify data for i2 at seq 9
+ok 104 - verify data for i2 at seq 10
+ok 105 - verify data for i2 at seq 11
+ok 106 - verify data for i2 at seq 12
+ok 107 - verify data for i2 at seq 13
+ok 108 - verify data for i2 at seq 14
+ok 109 - verify data for i2 at seq 15
+ok 110 - verify data for i2 at seq 16
+ok 111 - verify data for i2 at seq 17
+ok 112 - verify data for i2 at seq 18
+ok 113 - verify data for i2 at seq 19
+ok 114 - verify data for i2 at seq 20
+not ok 115 - verify data for i2 at seq 21
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i2] => -32768
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i2] => -32766
+        )
+
+)
+
+ok 116 - verify data for i2 at seq 22
+not ok 117 - verify data for i2 at seq 23
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i2] => -32768
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i2] => -32766
+        )
+
+)
+
+ok 118 - verify data for i2 at seq 24
+not ok 119 - verify data for i2 at seq 25
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i2] => -32768
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i2] => -32766
+        )
+
+)
+
+ok 120 - verify data for i2 at seq 26
+not ok 121 - verify data for i2 at seq 27
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i2] => -32768
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i2] => -32766
+        )
+
+)
+
+ok 122 - verify data for i2 at seq 28
+not ok 123 - verify data for i2 at seq 29
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i2] => -32768
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i2] => -32766
+        )
+
+)
+
+ok 124 - verify data for i2 at seq 30
+ok 125 - verify data for i2 at seq 31
+ok 126 - verify data for i2 at seq 32
+ok 127 - verify data for i2 at seq 33
+ok 128 - verify data for i2 at seq 34
+not ok 129 - verify data for i2 at seq 35
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i2] => -32768
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i2] => -32766
+        )
+
+)
+
+ok 130 - verify data for i2 at seq 36
+ok 131 - verify data for i2 at seq 37
+ok 132 - verify data for i2 at seq 38
+ok 133 - verify data for i2 at seq 39
+ok 134 - verify data for i2 at seq 40
+ok 135 - verify data for i2 at seq 41
+ok 136 - verify data for i2 at seq 42
+ok 137 - verify data for i2 at seq 43
+ok 138 - verify data for i2 at seq 44
+ok 139 - verify data for i2 at seq 45
+ok 140 - verify data for i4 at seq 1
+ok 141 - verify data for i4 at seq 2
+ok 142 - verify data for i4 at seq 3
+ok 143 - verify data for i4 at seq 4
+ok 144 - verify data for i4 at seq 5
+ok 145 - verify data for i4 at seq 6
+ok 146 - verify data for i4 at seq 7
+ok 147 - verify data for i4 at seq 8
+ok 148 - verify data for i4 at seq 9
+ok 149 - verify data for i4 at seq 10
+ok 150 - verify data for i4 at seq 11
+ok 151 - verify data for i4 at seq 12
+ok 152 - verify data for i4 at seq 13
+ok 153 - verify data for i4 at seq 14
+ok 154 - verify data for i4 at seq 15
+ok 155 - verify data for i4 at seq 16
+ok 156 - verify data for i4 at seq 17
+ok 157 - verify data for i4 at seq 18
+ok 158 - verify data for i4 at seq 19
+ok 159 - verify data for i4 at seq 20
+not ok 160 - verify data for i4 at seq 21
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i4] => -2147483648
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i4] => -2147483646
+        )
+
+)
+
+ok 161 - verify data for i4 at seq 22
+not ok 162 - verify data for i4 at seq 23
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i4] => -2147483647
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i4] => -2147483646
+        )
+
+)
+
+ok 163 - verify data for i4 at seq 24
+not ok 164 - verify data for i4 at seq 25
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i4] => -2147483648
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i4] => -2147483646
+        )
+
+)
+
+ok 165 - verify data for i4 at seq 26
+not ok 166 - verify data for i4 at seq 27
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i4] => -2147483648
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i4] => -2147483646
+        )
+
+)
+
+ok 167 - verify data for i4 at seq 28
+not ok 168 - verify data for i4 at seq 29
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i4] => -2147483648
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i4] => -2147483646
+        )
+
+)
+
+ok 169 - verify data for i4 at seq 30
+ok 170 - verify data for i4 at seq 31
+ok 171 - verify data for i4 at seq 32
+ok 172 - verify data for i4 at seq 33
+ok 173 - verify data for i4 at seq 34
+ok 174 - verify data for i4 at seq 35
+ok 175 - verify data for i4 at seq 36
+ok 176 - verify data for i4 at seq 37
+ok 177 - verify data for i4 at seq 38
+ok 178 - verify data for i4 at seq 39
+ok 179 - verify data for i4 at seq 40
+ok 180 - verify data for i4 at seq 41
+ok 181 - verify data for i4 at seq 42
+ok 182 - verify data for i4 at seq 43
+ok 183 - verify data for i4 at seq 44
+ok 184 - verify data for i4 at seq 45
+ok 185 - verify data for i8 at seq 1
+ok 186 - verify data for i8 at seq 2
+ok 187 - verify data for i8 at seq 3
+ok 188 - verify data for i8 at seq 4
+ok 189 - verify data for i8 at seq 5
+ok 190 - verify data for i8 at seq 6
+ok 191 - verify data for i8 at seq 7
+ok 192 - verify data for i8 at seq 8
+ok 193 - verify data for i8 at seq 9
+ok 194 - verify data for i8 at seq 10
+ok 195 - verify data for i8 at seq 11
+ok 196 - verify data for i8 at seq 12
+ok 197 - verify data for i8 at seq 13
+ok 198 - verify data for i8 at seq 14
+ok 199 - verify data for i8 at seq 15
+ok 200 - verify data for i8 at seq 16
+ok 201 - verify data for i8 at seq 17
+ok 202 - verify data for i8 at seq 18
+ok 203 - verify data for i8 at seq 19
+ok 204 - verify data for i8 at seq 20
+ok 205 - verify data for i8 at seq 21
+ok 206 - verify data for i8 at seq 22
+ok 207 - verify data for i8 at seq 23
+ok 208 - verify data for i8 at seq 24
+ok 209 - verify data for i8 at seq 25
+ok 210 - verify data for i8 at seq 26
+not ok 211 - verify data for i8 at seq 27
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i8] => -9223372036854775808
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i8] => -9223372036854775806
+        )
+
+)
+
+ok 212 - verify data for i8 at seq 28
+ok 213 - verify data for i8 at seq 29
+ok 214 - verify data for i8 at seq 30
+ok 215 - verify data for i8 at seq 31
+ok 216 - verify data for i8 at seq 32
+ok 217 - verify data for i8 at seq 33
+ok 218 - verify data for i8 at seq 34
+ok 219 - verify data for i8 at seq 35
+ok 220 - verify data for i8 at seq 36
+ok 221 - verify data for i8 at seq 37
+ok 222 - verify data for i8 at seq 38
+ok 223 - verify data for i8 at seq 39
+ok 224 - verify data for i8 at seq 40
+ok 225 - verify data for i8 at seq 41
+ok 226 - verify data for i8 at seq 42
+ok 227 - verify data for i8 at seq 43
+ok 228 - verify data for i8 at seq 44
+ok 229 - verify data for i8 at seq 45
+ok 230 - verify data for i1u at seq 1
+ok 231 - verify data for i1u at seq 2
+ok 232 - verify data for i1u at seq 3
+ok 233 - verify data for i1u at seq 4
+ok 234 - verify data for i1u at seq 5
+ok 235 - verify data for i1u at seq 6
+ok 236 - verify data for i1u at seq 7
+ok 237 - verify data for i1u at seq 8
+not ok 238 - verify data for i1u at seq 9
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 254
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 253
+        )
+
+)
+
+not ok 239 - verify data for i1u at seq 10
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 255
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 253
+        )
+
+)
+
+not ok 240 - verify data for i1u at seq 11
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 255
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 253
+        )
+
+)
+
+ok 241 - verify data for i1u at seq 12
+ok 242 - verify data for i1u at seq 13
+ok 243 - verify data for i1u at seq 14
+ok 244 - verify data for i1u at seq 15
+ok 245 - verify data for i1u at seq 16
+ok 246 - verify data for i1u at seq 17
+ok 247 - verify data for i1u at seq 18
+not ok 248 - verify data for i1u at seq 19
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 255
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 253
+        )
+
+)
+
+not ok 249 - verify data for i1u at seq 20
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 255
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 253
+        )
+
+)
+
+ok 250 - verify data for i1u at seq 21
+not ok 251 - verify data for i1u at seq 22
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 255
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 253
+        )
+
+)
+
+ok 252 - verify data for i1u at seq 23
+not ok 253 - verify data for i1u at seq 24
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 255
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 253
+        )
+
+)
+
+ok 254 - verify data for i1u at seq 25
+not ok 255 - verify data for i1u at seq 26
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 255
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 253
+        )
+
+)
+
+ok 256 - verify data for i1u at seq 27
+not ok 257 - verify data for i1u at seq 28
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 255
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 253
+        )
+
+)
+
+ok 258 - verify data for i1u at seq 29
+ok 259 - verify data for i1u at seq 30
+ok 260 - verify data for i1u at seq 31
+ok 261 - verify data for i1u at seq 32
+ok 262 - verify data for i1u at seq 33
+not ok 263 - verify data for i1u at seq 34
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 255
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 253
+        )
+
+)
+
+ok 264 - verify data for i1u at seq 35
+ok 265 - verify data for i1u at seq 36
+ok 266 - verify data for i1u at seq 37
+ok 267 - verify data for i1u at seq 38
+ok 268 - verify data for i1u at seq 39
+ok 269 - verify data for i1u at seq 40
+not ok 270 - verify data for i1u at seq 41
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 255
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 253
+        )
+
+)
+
+not ok 271 - verify data for i1u at seq 42
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 255
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 253
+        )
+
+)
+
+not ok 272 - verify data for i1u at seq 43
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 255
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 253
+        )
+
+)
+
+ok 273 - verify data for i1u at seq 44
+not ok 274 - verify data for i1u at seq 45
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 255
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i1u] => 253
+        )
+
+)
+
+ok 275 - verify data for i2u at seq 1
+ok 276 - verify data for i2u at seq 2
+ok 277 - verify data for i2u at seq 3
+ok 278 - verify data for i2u at seq 4
+ok 279 - verify data for i2u at seq 5
+ok 280 - verify data for i2u at seq 6
+ok 281 - verify data for i2u at seq 7
+ok 282 - verify data for i2u at seq 8
+ok 283 - verify data for i2u at seq 9
+ok 284 - verify data for i2u at seq 10
+ok 285 - verify data for i2u at seq 11
+ok 286 - verify data for i2u at seq 12
+ok 287 - verify data for i2u at seq 13
+ok 288 - verify data for i2u at seq 14
+ok 289 - verify data for i2u at seq 15
+ok 290 - verify data for i2u at seq 16
+ok 291 - verify data for i2u at seq 17
+ok 292 - verify data for i2u at seq 18
+ok 293 - verify data for i2u at seq 19
+not ok 294 - verify data for i2u at seq 20
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i2u] => 65535
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i2u] => 65533
+        )
+
+)
+
+ok 295 - verify data for i2u at seq 21
+not ok 296 - verify data for i2u at seq 22
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i2u] => 65535
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i2u] => 65533
+        )
+
+)
+
+ok 297 - verify data for i2u at seq 23
+not ok 298 - verify data for i2u at seq 24
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i2u] => 65535
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i2u] => 65533
+        )
+
+)
+
+ok 299 - verify data for i2u at seq 25
+not ok 300 - verify data for i2u at seq 26
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i2u] => 65535
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i2u] => 65533
+        )
+
+)
+
+ok 301 - verify data for i2u at seq 27
+not ok 302 - verify data for i2u at seq 28
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i2u] => 65535
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i2u] => 65533
+        )
+
+)
+
+ok 303 - verify data for i2u at seq 29
+ok 304 - verify data for i2u at seq 30
+ok 305 - verify data for i2u at seq 31
+ok 306 - verify data for i2u at seq 32
+ok 307 - verify data for i2u at seq 33
+not ok 308 - verify data for i2u at seq 34
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i2u] => 65535
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i2u] => 65533
+        )
+
+)
+
+ok 309 - verify data for i2u at seq 35
+ok 310 - verify data for i2u at seq 36
+ok 311 - verify data for i2u at seq 37
+ok 312 - verify data for i2u at seq 38
+ok 313 - verify data for i2u at seq 39
+ok 314 - verify data for i2u at seq 40
+ok 315 - verify data for i2u at seq 41
+ok 316 - verify data for i2u at seq 42
+ok 317 - verify data for i2u at seq 43
+ok 318 - verify data for i2u at seq 44
+ok 319 - verify data for i2u at seq 45
+ok 320 - verify data for i4u at seq 1
+ok 321 - verify data for i4u at seq 2
+ok 322 - verify data for i4u at seq 3
+ok 323 - verify data for i4u at seq 4
+ok 324 - verify data for i4u at seq 5
+ok 325 - verify data for i4u at seq 6
+ok 326 - verify data for i4u at seq 7
+ok 327 - verify data for i4u at seq 8
+ok 328 - verify data for i4u at seq 9
+ok 329 - verify data for i4u at seq 10
+ok 330 - verify data for i4u at seq 11
+ok 331 - verify data for i4u at seq 12
+ok 332 - verify data for i4u at seq 13
+ok 333 - verify data for i4u at seq 14
+ok 334 - verify data for i4u at seq 15
+ok 335 - verify data for i4u at seq 16
+ok 336 - verify data for i4u at seq 17
+ok 337 - verify data for i4u at seq 18
+ok 338 - verify data for i4u at seq 19
+not ok 339 - verify data for i4u at seq 20
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i4u] => 4294967295
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i4u] => 4294967293
+        )
+
+)
+
+ok 340 - verify data for i4u at seq 21
+ok 341 - verify data for i4u at seq 22
+ok 342 - verify data for i4u at seq 23
+not ok 343 - verify data for i4u at seq 24
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i4u] => 4294967295
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i4u] => 4294967293
+        )
+
+)
+
+ok 344 - verify data for i4u at seq 25
+not ok 345 - verify data for i4u at seq 26
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i4u] => 4294967295
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i4u] => 4294967293
+        )
+
+)
+
+ok 346 - verify data for i4u at seq 27
+not ok 347 - verify data for i4u at seq 28
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [i4u] => 4294967295
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [i4u] => 4294967293
+        )
+
+)
+
+ok 348 - verify data for i4u at seq 29
+ok 349 - verify data for i4u at seq 30
+ok 350 - verify data for i4u at seq 31
+ok 351 - verify data for i4u at seq 32
+ok 352 - verify data for i4u at seq 33
+ok 353 - verify data for i4u at seq 34
+ok 354 - verify data for i4u at seq 35
+ok 355 - verify data for i4u at seq 36
+ok 356 - verify data for i4u at seq 37
+ok 357 - verify data for i4u at seq 38
+ok 358 - verify data for i4u at seq 39
+ok 359 - verify data for i4u at seq 40
+ok 360 - verify data for i4u at seq 41
+ok 361 - verify data for i4u at seq 42
+ok 362 - verify data for i4u at seq 43
+ok 363 - verify data for i4u at seq 44
+ok 364 - verify data for i4u at seq 45
+ok 365 - verify data for i8u at seq 1
+ok 366 - verify data for i8u at seq 2
+ok 367 - verify data for i8u at seq 3
+ok 368 - verify data for i8u at seq 4
+ok 369 - verify data for i8u at seq 5
+ok 370 - verify data for i8u at seq 6
+ok 371 - verify data for i8u at seq 7
+ok 372 - verify data for i8u at seq 8
+ok 373 - verify data for i8u at seq 9
+ok 374 - verify data for i8u at seq 10
+ok 375 - verify data for i8u at seq 11
+ok 376 - verify data for i8u at seq 12
+ok 377 - verify data for i8u at seq 13
+ok 378 - verify data for i8u at seq 14
+ok 379 - verify data for i8u at seq 15
+ok 380 - verify data for i8u at seq 16
+ok 381 - verify data for i8u at seq 17
+ok 382 - verify data for i8u at seq 18
+ok 383 - verify data for i8u at seq 19
+ok 384 - verify data for i8u at seq 20
+ok 385 - verify data for i8u at seq 21
+ok 386 - verify data for i8u at seq 22
+ok 387 - verify data for i8u at seq 23
+ok 388 - verify data for i8u at seq 24
+ok 389 - verify data for i8u at seq 25
+ok 390 - verify data for i8u at seq 26
+ok 391 - verify data for i8u at seq 27
+ok 392 - verify data for i8u at seq 28
+ok 393 - verify data for i8u at seq 29
+ok 394 - verify data for i8u at seq 30
+ok 395 - verify data for i8u at seq 31
+ok 396 - verify data for i8u at seq 32
+ok 397 - verify data for i8u at seq 33
+ok 398 - verify data for i8u at seq 34
+ok 399 - verify data for i8u at seq 35
+ok 400 - verify data for i8u at seq 36
+ok 401 - verify data for i8u at seq 37
+ok 402 - verify data for i8u at seq 38
+ok 403 - verify data for i8u at seq 39
+ok 404 - verify data for i8u at seq 40
+ok 405 - verify data for i8u at seq 41
+ok 406 - verify data for i8u at seq 42
+ok 407 - verify data for i8u at seq 43
+ok 408 - verify data for i8u at seq 44
+ok 409 - verify data for i8u at seq 45
+ok 410 - verify data for d5 at seq 1
+ok 411 - verify data for d5 at seq 2
+ok 412 - verify data for d5 at seq 3
+ok 413 - verify data for d5 at seq 4
+ok 414 - verify data for d5 at seq 5
+ok 415 - verify data for d5 at seq 6
+ok 416 - verify data for d5 at seq 7
+ok 417 - verify data for d5 at seq 8
+ok 418 - verify data for d5 at seq 9
+ok 419 - verify data for d5 at seq 10
+ok 420 - verify data for d5 at seq 11
+ok 421 - verify data for d5 at seq 12
+ok 422 - verify data for d5 at seq 13
+ok 423 - verify data for d5 at seq 14
+ok 424 - verify data for d5 at seq 15
+ok 425 - verify data for d5 at seq 16
+ok 426 - verify data for d5 at seq 17
+ok 427 - verify data for d5 at seq 18
+ok 428 - verify data for d5 at seq 19
+ok 429 - verify data for d5 at seq 20
+ok 430 - verify data for d5 at seq 21
+ok 431 - verify data for d5 at seq 22
+ok 432 - verify data for d5 at seq 23
+ok 433 - verify data for d5 at seq 24
+ok 434 - verify data for d5 at seq 25
+ok 435 - verify data for d5 at seq 26
+ok 436 - verify data for d5 at seq 27
+ok 437 - verify data for d5 at seq 28
+ok 438 - verify data for d5 at seq 29
+ok 439 - verify data for d5 at seq 30
+ok 440 - verify data for d5 at seq 31
+ok 441 - verify data for d5 at seq 32
+ok 442 - verify data for d5 at seq 33
+ok 443 - verify data for d5 at seq 34
+ok 444 - verify data for d5 at seq 35
+ok 445 - verify data for d5 at seq 36
+ok 446 - verify data for d5 at seq 37
+ok 447 - verify data for d5 at seq 38
+ok 448 - verify data for d5 at seq 39
+ok 449 - verify data for d5 at seq 40
+ok 450 - verify data for d5 at seq 41
+ok 451 - verify data for d5 at seq 42
+ok 452 - verify data for d5 at seq 43
+ok 453 - verify data for d5 at seq 44
+ok 454 - verify data for d5 at seq 45
+ok 455 - verify data for f1 at seq 1
+ok 456 - verify data for f1 at seq 2
+ok 457 - verify data for f1 at seq 3
+ok 458 - verify data for f1 at seq 4
+ok 459 - verify data for f1 at seq 5
+ok 460 - verify data for f1 at seq 6
+ok 461 - verify data for f1 at seq 7
+ok 462 - verify data for f1 at seq 8
+ok 463 - verify data for f1 at seq 9
+ok 464 - verify data for f1 at seq 10
+ok 465 - verify data for f1 at seq 11
+ok 466 - verify data for f1 at seq 12
+ok 467 - verify data for f1 at seq 13
+ok 468 - verify data for f1 at seq 14
+ok 469 - verify data for f1 at seq 15
+ok 470 - verify data for f1 at seq 16
+ok 471 - verify data for f1 at seq 17
+ok 472 - verify data for f1 at seq 18
+ok 473 - verify data for f1 at seq 19
+ok 474 - verify data for f1 at seq 20
+ok 475 - verify data for f1 at seq 21
+ok 476 - verify data for f1 at seq 22
+ok 477 - verify data for f1 at seq 23
+ok 478 - verify data for f1 at seq 24
+ok 479 - verify data for f1 at seq 25
+ok 480 - verify data for f1 at seq 26
+ok 481 - verify data for f1 at seq 27
+ok 482 - verify data for f1 at seq 28
+ok 483 - verify data for f1 at seq 29
+ok 484 - verify data for f1 at seq 30
+ok 485 - verify data for f1 at seq 31
+ok 486 - verify data for f1 at seq 32
+ok 487 - verify data for f1 at seq 33
+ok 488 - verify data for f1 at seq 34
+ok 489 - verify data for f1 at seq 35
+ok 490 - verify data for f1 at seq 36
+ok 491 - verify data for f1 at seq 37
+ok 492 - verify data for f1 at seq 38
+ok 493 - verify data for f1 at seq 39
+ok 494 - verify data for f1 at seq 40
+ok 495 - verify data for f1 at seq 41
+ok 496 - verify data for f1 at seq 42
+ok 497 - verify data for f1 at seq 43
+ok 498 - verify data for f1 at seq 44
+ok 499 - verify data for f1 at seq 45
+ok 500 - verify data for f2 at seq 1
+ok 501 - verify data for f2 at seq 2
+ok 502 - verify data for f2 at seq 3
+ok 503 - verify data for f2 at seq 4
+ok 504 - verify data for f2 at seq 5
+ok 505 - verify data for f2 at seq 6
+ok 506 - verify data for f2 at seq 7
+ok 507 - verify data for f2 at seq 8
+ok 508 - verify data for f2 at seq 9
+ok 509 - verify data for f2 at seq 10
+ok 510 - verify data for f2 at seq 11
+ok 511 - verify data for f2 at seq 12
+ok 512 - verify data for f2 at seq 13
+ok 513 - verify data for f2 at seq 14
+ok 514 - verify data for f2 at seq 15
+ok 515 - verify data for f2 at seq 16
+ok 516 - verify data for f2 at seq 17
+ok 517 - verify data for f2 at seq 18
+ok 518 - verify data for f2 at seq 19
+ok 519 - verify data for f2 at seq 20
+ok 520 - verify data for f2 at seq 21
+ok 521 - verify data for f2 at seq 22
+ok 522 - verify data for f2 at seq 23
+ok 523 - verify data for f2 at seq 24
+ok 524 - verify data for f2 at seq 25
+ok 525 - verify data for f2 at seq 26
+ok 526 - verify data for f2 at seq 27
+ok 527 - verify data for f2 at seq 28
+ok 528 - verify data for f2 at seq 29
+ok 529 - verify data for f2 at seq 30
+ok 530 - verify data for f2 at seq 31
+ok 531 - verify data for f2 at seq 32
+ok 532 - verify data for f2 at seq 33
+ok 533 - verify data for f2 at seq 34
+ok 534 - verify data for f2 at seq 35
+ok 535 - verify data for f2 at seq 36
+ok 536 - verify data for f2 at seq 37
+ok 537 - verify data for f2 at seq 38
+ok 538 - verify data for f2 at seq 39
+ok 539 - verify data for f2 at seq 40
+ok 540 - verify data for f2 at seq 41
+ok 541 - verify data for f2 at seq 42
+ok 542 - verify data for f2 at seq 43
+ok 543 - verify data for f2 at seq 44
+ok 544 - verify data for f2 at seq 45
+ok 545 - verify data for f23 at seq 1
+ok 546 - verify data for f23 at seq 2
+ok 547 - verify data for f23 at seq 3
+ok 548 - verify data for f23 at seq 4
+ok 549 - verify data for f23 at seq 5
+ok 550 - verify data for f23 at seq 6
+ok 551 - verify data for f23 at seq 7
+ok 552 - verify data for f23 at seq 8
+ok 553 - verify data for f23 at seq 9
+ok 554 - verify data for f23 at seq 10
+ok 555 - verify data for f23 at seq 11
+ok 556 - verify data for f23 at seq 12
+ok 557 - verify data for f23 at seq 13
+ok 558 - verify data for f23 at seq 14
+ok 559 - verify data for f23 at seq 15
+ok 560 - verify data for f23 at seq 16
+ok 561 - verify data for f23 at seq 17
+ok 562 - verify data for f23 at seq 18
+ok 563 - verify data for f23 at seq 19
+ok 564 - verify data for f23 at seq 20
+ok 565 - verify data for f23 at seq 21
+ok 566 - verify data for f23 at seq 22
+ok 567 - verify data for f23 at seq 23
+ok 568 - verify data for f23 at seq 24
+ok 569 - verify data for f23 at seq 25
+ok 570 - verify data for f23 at seq 26
+ok 571 - verify data for f23 at seq 27
+ok 572 - verify data for f23 at seq 28
+ok 573 - verify data for f23 at seq 29
+ok 574 - verify data for f23 at seq 30
+ok 575 - verify data for f23 at seq 31
+ok 576 - verify data for f23 at seq 32
+ok 577 - verify data for f23 at seq 33
+ok 578 - verify data for f23 at seq 34
+ok 579 - verify data for f23 at seq 35
+ok 580 - verify data for f23 at seq 36
+ok 581 - verify data for f23 at seq 37
+ok 582 - verify data for f23 at seq 38
+ok 583 - verify data for f23 at seq 39
+ok 584 - verify data for f23 at seq 40
+ok 585 - verify data for f23 at seq 41
+ok 586 - verify data for f23 at seq 42
+ok 587 - verify data for f23 at seq 43
+ok 588 - verify data for f23 at seq 44
+ok 589 - verify data for f23 at seq 45
+ok 590 - verify data for f24 at seq 1
+ok 591 - verify data for f24 at seq 2
+ok 592 - verify data for f24 at seq 3
+ok 593 - verify data for f24 at seq 4
+ok 594 - verify data for f24 at seq 5
+ok 595 - verify data for f24 at seq 6
+ok 596 - verify data for f24 at seq 7
+ok 597 - verify data for f24 at seq 8
+ok 598 - verify data for f24 at seq 9
+ok 599 - verify data for f24 at seq 10
+ok 600 - verify data for f24 at seq 11
+ok 601 - verify data for f24 at seq 12
+ok 602 - verify data for f24 at seq 13
+ok 603 - verify data for f24 at seq 14
+ok 604 - verify data for f24 at seq 15
+ok 605 - verify data for f24 at seq 16
+ok 606 - verify data for f24 at seq 17
+ok 607 - verify data for f24 at seq 18
+ok 608 - verify data for f24 at seq 19
+ok 609 - verify data for f24 at seq 20
+ok 610 - verify data for f24 at seq 21
+ok 611 - verify data for f24 at seq 22
+ok 612 - verify data for f24 at seq 23
+ok 613 - verify data for f24 at seq 24
+ok 614 - verify data for f24 at seq 25
+ok 615 - verify data for f24 at seq 26
+ok 616 - verify data for f24 at seq 27
+ok 617 - verify data for f24 at seq 28
+ok 618 - verify data for f24 at seq 29
+ok 619 - verify data for f24 at seq 30
+ok 620 - verify data for f24 at seq 31
+ok 621 - verify data for f24 at seq 32
+ok 622 - verify data for f24 at seq 33
+ok 623 - verify data for f24 at seq 34
+ok 624 - verify data for f24 at seq 35
+ok 625 - verify data for f24 at seq 36
+ok 626 - verify data for f24 at seq 37
+ok 627 - verify data for f24 at seq 38
+ok 628 - verify data for f24 at seq 39
+ok 629 - verify data for f24 at seq 40
+ok 630 - verify data for f24 at seq 41
+ok 631 - verify data for f24 at seq 42
+ok 632 - verify data for f24 at seq 43
+ok 633 - verify data for f24 at seq 44
+ok 634 - verify data for f24 at seq 45
+ok 635 - verify data for f53 at seq 1
+ok 636 - verify data for f53 at seq 2
+ok 637 - verify data for f53 at seq 3
+ok 638 - verify data for f53 at seq 4
+ok 639 - verify data for f53 at seq 5
+ok 640 - verify data for f53 at seq 6
+ok 641 - verify data for f53 at seq 7
+ok 642 - verify data for f53 at seq 8
+ok 643 - verify data for f53 at seq 9
+ok 644 - verify data for f53 at seq 10
+ok 645 - verify data for f53 at seq 11
+ok 646 - verify data for f53 at seq 12
+ok 647 - verify data for f53 at seq 13
+ok 648 - verify data for f53 at seq 14
+ok 649 - verify data for f53 at seq 15
+ok 650 - verify data for f53 at seq 16
+ok 651 - verify data for f53 at seq 17
+ok 652 - verify data for f53 at seq 18
+ok 653 - verify data for f53 at seq 19
+ok 654 - verify data for f53 at seq 20
+ok 655 - verify data for f53 at seq 21
+ok 656 - verify data for f53 at seq 22
+ok 657 - verify data for f53 at seq 23
+ok 658 - verify data for f53 at seq 24
+ok 659 - verify data for f53 at seq 25
+ok 660 - verify data for f53 at seq 26
+ok 661 - verify data for f53 at seq 27
+ok 662 - verify data for f53 at seq 28
+ok 663 - verify data for f53 at seq 29
+ok 664 - verify data for f53 at seq 30
+ok 665 - verify data for f53 at seq 31
+ok 666 - verify data for f53 at seq 32
+ok 667 - verify data for f53 at seq 33
+ok 668 - verify data for f53 at seq 34
+ok 669 - verify data for f53 at seq 35
+ok 670 - verify data for f53 at seq 36
+ok 671 - verify data for f53 at seq 37
+ok 672 - verify data for f53 at seq 38
+ok 673 - verify data for f53 at seq 39
+ok 674 - verify data for f53 at seq 40
+ok 675 - verify data for f53 at seq 41
+ok 676 - verify data for f53 at seq 42
+ok 677 - verify data for f53 at seq 43
+ok 678 - verify data for f53 at seq 44
+ok 679 - verify data for f53 at seq 45
+ok 680 - verify data for p1 at seq 1
+ok 681 - verify data for p1 at seq 2
+ok 682 - verify data for p1 at seq 3
+ok 683 - verify data for p1 at seq 4
+ok 684 - verify data for p1 at seq 5
+ok 685 - verify data for p1 at seq 6
+ok 686 - verify data for p1 at seq 7
+ok 687 - verify data for p1 at seq 8
+ok 688 - verify data for p1 at seq 9
+ok 689 - verify data for p1 at seq 10
+ok 690 - verify data for p1 at seq 11
+ok 691 - verify data for p1 at seq 12
+ok 692 - verify data for p1 at seq 13
+ok 693 - verify data for p1 at seq 14
+ok 694 - verify data for p1 at seq 15
+ok 695 - verify data for p1 at seq 16
+ok 696 - verify data for p1 at seq 17
+ok 697 - verify data for p1 at seq 18
+ok 698 - verify data for p1 at seq 19
+ok 699 - verify data for p1 at seq 20
+ok 700 - verify data for p1 at seq 21
+ok 701 - verify data for p1 at seq 22
+ok 702 - verify data for p1 at seq 23
+ok 703 - verify data for p1 at seq 24
+ok 704 - verify data for p1 at seq 25
+ok 705 - verify data for p1 at seq 26
+ok 706 - verify data for p1 at seq 27
+ok 707 - verify data for p1 at seq 28
+ok 708 - verify data for p1 at seq 29
+ok 709 - verify data for p1 at seq 30
+ok 710 - verify data for p1 at seq 31
+ok 711 - verify data for p1 at seq 32
+ok 712 - verify data for p1 at seq 33
+ok 713 - verify data for p1 at seq 34
+ok 714 - verify data for p1 at seq 35
+ok 715 - verify data for p1 at seq 36
+ok 716 - verify data for p1 at seq 37
+ok 717 - verify data for p1 at seq 38
+ok 718 - verify data for p1 at seq 39
+ok 719 - verify data for p1 at seq 40
+ok 720 - verify data for p1 at seq 41
+ok 721 - verify data for p1 at seq 42
+ok 722 - verify data for p1 at seq 43
+ok 723 - verify data for p1 at seq 44
+ok 724 - verify data for p1 at seq 45
+ok 725 - verify data for p2 at seq 1
+ok 726 - verify data for p2 at seq 2
+ok 727 - verify data for p2 at seq 3
+ok 728 - verify data for p2 at seq 4
+ok 729 - verify data for p2 at seq 5
+ok 730 - verify data for p2 at seq 6
+ok 731 - verify data for p2 at seq 7
+ok 732 - verify data for p2 at seq 8
+ok 733 - verify data for p2 at seq 9
+ok 734 - verify data for p2 at seq 10
+ok 735 - verify data for p2 at seq 11
+ok 736 - verify data for p2 at seq 12
+ok 737 - verify data for p2 at seq 13
+ok 738 - verify data for p2 at seq 14
+ok 739 - verify data for p2 at seq 15
+ok 740 - verify data for p2 at seq 16
+ok 741 - verify data for p2 at seq 17
+ok 742 - verify data for p2 at seq 18
+ok 743 - verify data for p2 at seq 19
+ok 744 - verify data for p2 at seq 20
+ok 745 - verify data for p2 at seq 21
+ok 746 - verify data for p2 at seq 22
+ok 747 - verify data for p2 at seq 23
+ok 748 - verify data for p2 at seq 24
+ok 749 - verify data for p2 at seq 25
+ok 750 - verify data for p2 at seq 26
+ok 751 - verify data for p2 at seq 27
+ok 752 - verify data for p2 at seq 28
+ok 753 - verify data for p2 at seq 29
+ok 754 - verify data for p2 at seq 30
+ok 755 - verify data for p2 at seq 31
+ok 756 - verify data for p2 at seq 32
+ok 757 - verify data for p2 at seq 33
+ok 758 - verify data for p2 at seq 34
+ok 759 - verify data for p2 at seq 35
+ok 760 - verify data for p2 at seq 36
+ok 761 - verify data for p2 at seq 37
+ok 762 - verify data for p2 at seq 38
+ok 763 - verify data for p2 at seq 39
+ok 764 - verify data for p2 at seq 40
+ok 765 - verify data for p2 at seq 41
+ok 766 - verify data for p2 at seq 42
+ok 767 - verify data for p2 at seq 43
+ok 768 - verify data for p2 at seq 44
+ok 769 - verify data for p2 at seq 45
+ok 770 - verify data for p23 at seq 1
+ok 771 - verify data for p23 at seq 2
+ok 772 - verify data for p23 at seq 3
+ok 773 - verify data for p23 at seq 4
+ok 774 - verify data for p23 at seq 5
+ok 775 - verify data for p23 at seq 6
+ok 776 - verify data for p23 at seq 7
+ok 777 - verify data for p23 at seq 8
+ok 778 - verify data for p23 at seq 9
+ok 779 - verify data for p23 at seq 10
+ok 780 - verify data for p23 at seq 11
+ok 781 - verify data for p23 at seq 12
+ok 782 - verify data for p23 at seq 13
+ok 783 - verify data for p23 at seq 14
+ok 784 - verify data for p23 at seq 15
+ok 785 - verify data for p23 at seq 16
+ok 786 - verify data for p23 at seq 17
+ok 787 - verify data for p23 at seq 18
+ok 788 - verify data for p23 at seq 19
+ok 789 - verify data for p23 at seq 20
+ok 790 - verify data for p23 at seq 21
+ok 791 - verify data for p23 at seq 22
+ok 792 - verify data for p23 at seq 23
+ok 793 - verify data for p23 at seq 24
+ok 794 - verify data for p23 at seq 25
+ok 795 - verify data for p23 at seq 26
+ok 796 - verify data for p23 at seq 27
+ok 797 - verify data for p23 at seq 28
+ok 798 - verify data for p23 at seq 29
+ok 799 - verify data for p23 at seq 30
+ok 800 - verify data for p23 at seq 31
+ok 801 - verify data for p23 at seq 32
+ok 802 - verify data for p23 at seq 33
+ok 803 - verify data for p23 at seq 34
+ok 804 - verify data for p23 at seq 35
+ok 805 - verify data for p23 at seq 36
+ok 806 - verify data for p23 at seq 37
+ok 807 - verify data for p23 at seq 38
+ok 808 - verify data for p23 at seq 39
+ok 809 - verify data for p23 at seq 40
+ok 810 - verify data for p23 at seq 41
+ok 811 - verify data for p23 at seq 42
+ok 812 - verify data for p23 at seq 43
+ok 813 - verify data for p23 at seq 44
+ok 814 - verify data for p23 at seq 45
+ok 815 - verify data for p24 at seq 1
+ok 816 - verify data for p24 at seq 2
+ok 817 - verify data for p24 at seq 3
+ok 818 - verify data for p24 at seq 4
+ok 819 - verify data for p24 at seq 5
+ok 820 - verify data for p24 at seq 6
+ok 821 - verify data for p24 at seq 7
+ok 822 - verify data for p24 at seq 8
+ok 823 - verify data for p24 at seq 9
+ok 824 - verify data for p24 at seq 10
+ok 825 - verify data for p24 at seq 11
+ok 826 - verify data for p24 at seq 12
+ok 827 - verify data for p24 at seq 13
+ok 828 - verify data for p24 at seq 14
+ok 829 - verify data for p24 at seq 15
+ok 830 - verify data for p24 at seq 16
+ok 831 - verify data for p24 at seq 17
+ok 832 - verify data for p24 at seq 18
+ok 833 - verify data for p24 at seq 19
+ok 834 - verify data for p24 at seq 20
+ok 835 - verify data for p24 at seq 21
+ok 836 - verify data for p24 at seq 22
+ok 837 - verify data for p24 at seq 23
+ok 838 - verify data for p24 at seq 24
+ok 839 - verify data for p24 at seq 25
+ok 840 - verify data for p24 at seq 26
+ok 841 - verify data for p24 at seq 27
+ok 842 - verify data for p24 at seq 28
+ok 843 - verify data for p24 at seq 29
+ok 844 - verify data for p24 at seq 30
+ok 845 - verify data for p24 at seq 31
+ok 846 - verify data for p24 at seq 32
+ok 847 - verify data for p24 at seq 33
+ok 848 - verify data for p24 at seq 34
+ok 849 - verify data for p24 at seq 35
+ok 850 - verify data for p24 at seq 36
+ok 851 - verify data for p24 at seq 37
+ok 852 - verify data for p24 at seq 38
+ok 853 - verify data for p24 at seq 39
+ok 854 - verify data for p24 at seq 40
+ok 855 - verify data for p24 at seq 41
+ok 856 - verify data for p24 at seq 42
+ok 857 - verify data for p24 at seq 43
+ok 858 - verify data for p24 at seq 44
+ok 859 - verify data for p24 at seq 45
+ok 860 - verify data for p53 at seq 1
+ok 861 - verify data for p53 at seq 2
+ok 862 - verify data for p53 at seq 3
+ok 863 - verify data for p53 at seq 4
+ok 864 - verify data for p53 at seq 5
+ok 865 - verify data for p53 at seq 6
+ok 866 - verify data for p53 at seq 7
+ok 867 - verify data for p53 at seq 8
+ok 868 - verify data for p53 at seq 9
+ok 869 - verify data for p53 at seq 10
+ok 870 - verify data for p53 at seq 11
+ok 871 - verify data for p53 at seq 12
+ok 872 - verify data for p53 at seq 13
+ok 873 - verify data for p53 at seq 14
+ok 874 - verify data for p53 at seq 15
+ok 875 - verify data for p53 at seq 16
+ok 876 - verify data for p53 at seq 17
+ok 877 - verify data for p53 at seq 18
+ok 878 - verify data for p53 at seq 19
+ok 879 - verify data for p53 at seq 20
+ok 880 - verify data for p53 at seq 21
+ok 881 - verify data for p53 at seq 22
+ok 882 - verify data for p53 at seq 23
+ok 883 - verify data for p53 at seq 24
+ok 884 - verify data for p53 at seq 25
+ok 885 - verify data for p53 at seq 26
+ok 886 - verify data for p53 at seq 27
+ok 887 - verify data for p53 at seq 28
+ok 888 - verify data for p53 at seq 29
+ok 889 - verify data for p53 at seq 30
+ok 890 - verify data for p53 at seq 31
+ok 891 - verify data for p53 at seq 32
+ok 892 - verify data for p53 at seq 33
+ok 893 - verify data for p53 at seq 34
+ok 894 - verify data for p53 at seq 35
+ok 895 - verify data for p53 at seq 36
+ok 896 - verify data for p53 at seq 37
+ok 897 - verify data for p53 at seq 38
+ok 898 - verify data for p53 at seq 39
+ok 899 - verify data for p53 at seq 40
+ok 900 - verify data for p53 at seq 41
+ok 901 - verify data for p53 at seq 42
+ok 902 - verify data for p53 at seq 43
+ok 903 - verify data for p53 at seq 44
+ok 904 - verify data for p53 at seq 45
+ok 905 - verify data for r1 at seq 1
+ok 906 - verify data for r1 at seq 2
+ok 907 - verify data for r1 at seq 3
+ok 908 - verify data for r1 at seq 4
+ok 909 - verify data for r1 at seq 5
+ok 910 - verify data for r1 at seq 6
+ok 911 - verify data for r1 at seq 7
+ok 912 - verify data for r1 at seq 8
+ok 913 - verify data for r1 at seq 9
+ok 914 - verify data for r1 at seq 10
+ok 915 - verify data for r1 at seq 11
+ok 916 - verify data for r1 at seq 12
+ok 917 - verify data for r1 at seq 13
+ok 918 - verify data for r1 at seq 14
+ok 919 - verify data for r1 at seq 15
+ok 920 - verify data for r1 at seq 16
+ok 921 - verify data for r1 at seq 17
+ok 922 - verify data for r1 at seq 18
+ok 923 - verify data for r1 at seq 19
+ok 924 - verify data for r1 at seq 20
+ok 925 - verify data for r1 at seq 21
+ok 926 - verify data for r1 at seq 22
+ok 927 - verify data for r1 at seq 23
+ok 928 - verify data for r1 at seq 24
+ok 929 - verify data for r1 at seq 25
+ok 930 - verify data for r1 at seq 26
+ok 931 - verify data for r1 at seq 27
+ok 932 - verify data for r1 at seq 28
+ok 933 - verify data for r1 at seq 29
+ok 934 - verify data for r1 at seq 30
+ok 935 - verify data for r1 at seq 31
+ok 936 - verify data for r1 at seq 32
+ok 937 - verify data for r1 at seq 33
+ok 938 - verify data for r1 at seq 34
+ok 939 - verify data for r1 at seq 35
+ok 940 - verify data for r1 at seq 36
+ok 941 - verify data for r1 at seq 37
+ok 942 - verify data for r1 at seq 38
+ok 943 - verify data for r1 at seq 39
+ok 944 - verify data for r1 at seq 40
+ok 945 - verify data for r1 at seq 41
+ok 946 - verify data for r1 at seq 42
+ok 947 - verify data for r1 at seq 43
+ok 948 - verify data for r1 at seq 44
+ok 949 - verify data for r1 at seq 45
+ok 950 - verify data for d at seq 1
+not ok 951 - verify data for d at seq 2
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 952 - verify data for d at seq 3
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 953 - verify data for d at seq 4
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+ok 954 - verify data for d at seq 5
+ok 955 - verify data for d at seq 6
+ok 956 - verify data for d at seq 7
+not ok 957 - verify data for d at seq 8
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 958 - verify data for d at seq 9
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 959 - verify data for d at seq 10
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 960 - verify data for d at seq 11
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 961 - verify data for d at seq 12
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 962 - verify data for d at seq 13
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 963 - verify data for d at seq 14
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 964 - verify data for d at seq 15
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 965 - verify data for d at seq 16
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 966 - verify data for d at seq 17
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 967 - verify data for d at seq 18
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 968 - verify data for d at seq 19
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 969 - verify data for d at seq 20
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 970 - verify data for d at seq 21
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 971 - verify data for d at seq 22
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 972 - verify data for d at seq 23
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 973 - verify data for d at seq 24
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 974 - verify data for d at seq 25
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 975 - verify data for d at seq 26
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 976 - verify data for d at seq 27
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 977 - verify data for d at seq 28
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 978 - verify data for d at seq 29
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 979 - verify data for d at seq 30
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 980 - verify data for d at seq 31
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 981 - verify data for d at seq 32
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 982 - verify data for d at seq 33
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 983 - verify data for d at seq 34
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 984 - verify data for d at seq 35
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 985 - verify data for d at seq 36
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 986 - verify data for d at seq 37
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 987 - verify data for d at seq 38
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 988 - verify data for d at seq 39
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+not ok 989 - verify data for d at seq 40
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+ok 990 - verify data for d at seq 41
+ok 991 - verify data for d at seq 42
+ok 992 - verify data for d at seq 43
+not ok 993 - verify data for d at seq 44
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [d] => 0000-00-00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [d] => 
+        )
+
+)
+
+ok 994 - verify data for d at seq 45
+ok 995 - verify data for dt at seq 1
+not ok 996 - verify data for dt at seq 2
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 997 - verify data for dt at seq 3
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 998 - verify data for dt at seq 4
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+ok 999 - verify data for dt at seq 5
+ok 1000 - verify data for dt at seq 6
+ok 1001 - verify data for dt at seq 7
+not ok 1002 - verify data for dt at seq 8
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1003 - verify data for dt at seq 9
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1004 - verify data for dt at seq 10
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1005 - verify data for dt at seq 11
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1006 - verify data for dt at seq 12
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1007 - verify data for dt at seq 13
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1008 - verify data for dt at seq 14
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1009 - verify data for dt at seq 15
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1010 - verify data for dt at seq 16
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1011 - verify data for dt at seq 17
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1012 - verify data for dt at seq 18
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1013 - verify data for dt at seq 19
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1014 - verify data for dt at seq 20
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1015 - verify data for dt at seq 21
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1016 - verify data for dt at seq 22
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1017 - verify data for dt at seq 23
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1018 - verify data for dt at seq 24
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1019 - verify data for dt at seq 25
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1020 - verify data for dt at seq 26
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1021 - verify data for dt at seq 27
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1022 - verify data for dt at seq 28
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1023 - verify data for dt at seq 29
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1024 - verify data for dt at seq 30
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1025 - verify data for dt at seq 31
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1026 - verify data for dt at seq 32
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1027 - verify data for dt at seq 33
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1028 - verify data for dt at seq 34
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1029 - verify data for dt at seq 35
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1030 - verify data for dt at seq 36
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1031 - verify data for dt at seq 37
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1032 - verify data for dt at seq 38
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1033 - verify data for dt at seq 39
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+not ok 1034 - verify data for dt at seq 40
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+ok 1035 - verify data for dt at seq 41
+ok 1036 - verify data for dt at seq 42
+ok 1037 - verify data for dt at seq 43
+not ok 1038 - verify data for dt at seq 44
+#     Failed test (/home/justin/src/columnstore_tests/run_tests at line 120)
+EXPECT: Array
+(
+    [0] => Array
+        (
+            [dt] => 0000-00-00 00:00:00
+        )
+
+)
+
+RESULT: Array
+(
+    [0] => Array
+        (
+            [dt] => 
+        )
+
+)
+
+ok 1039 - verify data for dt at seq 45
+ok 1040 - verify data for c1 at seq 1
+ok 1041 - verify data for c1 at seq 2
+ok 1042 - verify data for c1 at seq 3
+ok 1043 - verify data for c1 at seq 4
+ok 1044 - verify data for c1 at seq 5
+ok 1045 - verify data for c1 at seq 6
+ok 1046 - verify data for c1 at seq 7
+ok 1047 - verify data for c1 at seq 8
+ok 1048 - verify data for c1 at seq 9
+ok 1049 - verify data for c1 at seq 10
+ok 1050 - verify data for c1 at seq 11
+ok 1051 - verify data for c1 at seq 12
+ok 1052 - verify data for c1 at seq 13
+ok 1053 - verify data for c1 at seq 14
+ok 1054 - verify data for c1 at seq 15
+ok 1055 - verify data for c1 at seq 16
+ok 1056 - verify data for c1 at seq 17
+ok 1057 - verify data for c1 at seq 18
+ok 1058 - verify data for c1 at seq 19
+ok 1059 - verify data for c1 at seq 20
+ok 1060 - verify data for c1 at seq 21
+ok 1061 - verify data for c1 at seq 22
+ok 1062 - verify data for c1 at seq 23
+ok 1063 - verify data for c1 at seq 24
+ok 1064 - verify data for c1 at seq 25
+ok 1065 - verify data for c1 at seq 26
+ok 1066 - verify data for c1 at seq 27
+ok 1067 - verify data for c1 at seq 28
+ok 1068 - verify data for c1 at seq 29
+ok 1069 - verify data for c1 at seq 30
+ok 1070 - verify data for c1 at seq 31
+ok 1071 - verify data for c1 at seq 32
+ok 1072 - verify data for c1 at seq 33
+ok 1073 - verify data for c1 at seq 34
+ok 1074 - verify data for c1 at seq 35
+ok 1075 - verify data for c1 at seq 36
+ok 1076 - verify data for c1 at seq 37
+ok 1077 - verify data for c1 at seq 38
+ok 1078 - verify data for c1 at seq 39
+ok 1079 - verify data for c1 at seq 40
+ok 1080 - verify data for c1 at seq 41
+ok 1081 - verify data for c1 at seq 42
+ok 1082 - verify data for c1 at seq 43
+ok 1083 - verify data for c1 at seq 44
+ok 1084 - verify data for c1 at seq 45
+ok 1085 - verify data for c2 at seq 1
+ok 1086 - verify data for c2 at seq 2
+ok 1087 - verify data for c2 at seq 3
+ok 1088 - verify data for c2 at seq 4
+ok 1089 - verify data for c2 at seq 5
+ok 1090 - verify data for c2 at seq 6
+ok 1091 - verify data for c2 at seq 7
+ok 1092 - verify data for c2 at seq 8
+ok 1093 - verify data for c2 at seq 9
+ok 1094 - verify data for c2 at seq 10
+ok 1095 - verify data for c2 at seq 11
+ok 1096 - verify data for c2 at seq 12
+ok 1097 - verify data for c2 at seq 13
+ok 1098 - verify data for c2 at seq 14
+ok 1099 - verify data for c2 at seq 15
+ok 1100 - verify data for c2 at seq 16
+ok 1101 - verify data for c2 at seq 17
+ok 1102 - verify data for c2 at seq 18
+ok 1103 - verify data for c2 at seq 19
+ok 1104 - verify data for c2 at seq 20
+ok 1105 - verify data for c2 at seq 21
+ok 1106 - verify data for c2 at seq 22
+ok 1107 - verify data for c2 at seq 23
+ok 1108 - verify data for c2 at seq 24
+ok 1109 - verify data for c2 at seq 25
+ok 1110 - verify data for c2 at seq 26
+ok 1111 - verify data for c2 at seq 27
+ok 1112 - verify data for c2 at seq 28
+ok 1113 - verify data for c2 at seq 29
+ok 1114 - verify data for c2 at seq 30
+ok 1115 - verify data for c2 at seq 31
+ok 1116 - verify data for c2 at seq 32
+ok 1117 - verify data for c2 at seq 33
+ok 1118 - verify data for c2 at seq 34
+ok 1119 - verify data for c2 at seq 35
+ok 1120 - verify data for c2 at seq 36
+ok 1121 - verify data for c2 at seq 37
+ok 1122 - verify data for c2 at seq 38
+ok 1123 - verify data for c2 at seq 39
+ok 1124 - verify data for c2 at seq 40
+ok 1125 - verify data for c2 at seq 41
+ok 1126 - verify data for c2 at seq 42
+ok 1127 - verify data for c2 at seq 43
+ok 1128 - verify data for c2 at seq 44
+ok 1129 - verify data for c2 at seq 45
+ok 1130 - verify data for vc1 at seq 1
+ok 1131 - verify data for vc1 at seq 2
+ok 1132 - verify data for vc1 at seq 3
+ok 1133 - verify data for vc1 at seq 4
+ok 1134 - verify data for vc1 at seq 5
+ok 1135 - verify data for vc1 at seq 6
+ok 1136 - verify data for vc1 at seq 7
+ok 1137 - verify data for vc1 at seq 8
+ok 1138 - verify data for vc1 at seq 9
+ok 1139 - verify data for vc1 at seq 10
+ok 1140 - verify data for vc1 at seq 11
+ok 1141 - verify data for vc1 at seq 12
+ok 1142 - verify data for vc1 at seq 13
+ok 1143 - verify data for vc1 at seq 14
+ok 1144 - verify data for vc1 at seq 15
+ok 1145 - verify data for vc1 at seq 16
+ok 1146 - verify data for vc1 at seq 17
+ok 1147 - verify data for vc1 at seq 18
+ok 1148 - verify data for vc1 at seq 19
+ok 1149 - verify data for vc1 at seq 20
+ok 1150 - verify data for vc1 at seq 21
+ok 1151 - verify data for vc1 at seq 22
+ok 1152 - verify data for vc1 at seq 23
+ok 1153 - verify data for vc1 at seq 24
+ok 1154 - verify data for vc1 at seq 25
+ok 1155 - verify data for vc1 at seq 26
+ok 1156 - verify data for vc1 at seq 27
+ok 1157 - verify data for vc1 at seq 28
+ok 1158 - verify data for vc1 at seq 29
+ok 1159 - verify data for vc1 at seq 30
+ok 1160 - verify data for vc1 at seq 31
+ok 1161 - verify data for vc1 at seq 32
+ok 1162 - verify data for vc1 at seq 33
+ok 1163 - verify data for vc1 at seq 34
+ok 1164 - verify data for vc1 at seq 35
+ok 1165 - verify data for vc1 at seq 36
+ok 1166 - verify data for vc1 at seq 37
+ok 1167 - verify data for vc1 at seq 38
+ok 1168 - verify data for vc1 at seq 39
+ok 1169 - verify data for vc1 at seq 40
+ok 1170 - verify data for vc1 at seq 41
+ok 1171 - verify data for vc1 at seq 42
+ok 1172 - verify data for vc1 at seq 43
+ok 1173 - verify data for vc1 at seq 44
+ok 1174 - verify data for vc1 at seq 45
+ok 1175 - verify data for vc2 at seq 1
+ok 1176 - verify data for vc2 at seq 2
+ok 1177 - verify data for vc2 at seq 3
+ok 1178 - verify data for vc2 at seq 4
+ok 1179 - verify data for vc2 at seq 5
+ok 1180 - verify data for vc2 at seq 6
+ok 1181 - verify data for vc2 at seq 7
+ok 1182 - verify data for vc2 at seq 8
+ok 1183 - verify data for vc2 at seq 9
+ok 1184 - verify data for vc2 at seq 10
+ok 1185 - verify data for vc2 at seq 11
+ok 1186 - verify data for vc2 at seq 12
+ok 1187 - verify data for vc2 at seq 13
+ok 1188 - verify data for vc2 at seq 14
+ok 1189 - verify data for vc2 at seq 15
+ok 1190 - verify data for vc2 at seq 16
+ok 1191 - verify data for vc2 at seq 17
+ok 1192 - verify data for vc2 at seq 18
+ok 1193 - verify data for vc2 at seq 19
+ok 1194 - verify data for vc2 at seq 20
+ok 1195 - verify data for vc2 at seq 21
+ok 1196 - verify data for vc2 at seq 22
+ok 1197 - verify data for vc2 at seq 23
+ok 1198 - verify data for vc2 at seq 24
+ok 1199 - verify data for vc2 at seq 25
+ok 1200 - verify data for vc2 at seq 26
+ok 1201 - verify data for vc2 at seq 27
+ok 1202 - verify data for vc2 at seq 28
+ok 1203 - verify data for vc2 at seq 29
+ok 1204 - verify data for vc2 at seq 30
+ok 1205 - verify data for vc2 at seq 31
+ok 1206 - verify data for vc2 at seq 32
+ok 1207 - verify data for vc2 at seq 33
+ok 1208 - verify data for vc2 at seq 34
+ok 1209 - verify data for vc2 at seq 35
+ok 1210 - verify data for vc2 at seq 36
+ok 1211 - verify data for vc2 at seq 37
+ok 1212 - verify data for vc2 at seq 38
+ok 1213 - verify data for vc2 at seq 39
+ok 1214 - verify data for vc2 at seq 40
+ok 1215 - verify data for vc2 at seq 41
+ok 1216 - verify data for vc2 at seq 42
+ok 1217 - verify data for vc2 at seq 43
+ok 1218 - verify data for vc2 at seq 44
+ok 1219 - verify data for vc2 at seq 45
+# Looks like you failed 123 tests of 1219.
