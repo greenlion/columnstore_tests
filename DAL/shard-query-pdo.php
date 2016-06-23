@@ -62,7 +62,7 @@ class PDODAL implements SimpleDALinterface
 
     function &my_query($sql = '', $conn = null)
     {
-	if(SQ_DEBUG) echo "DRV_PDO:$sql\n";
+	if(SQ_DEBUG) echo "$sql\n";
         if (isset($conn)) {
 			$conn->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, true);
 			$this->stmt = $conn->query($sql);

@@ -55,9 +55,10 @@ foreach($op as $o) {
                 foreach($vals as $v) {
                         $z = str_replace("$1", $v, $o);
                         $z = str_replace("$2", $c, $z);
-                        for($i=1;$i<=count($cols);++$i) {
-                                sql_ok("select $z from $table where seq=$i\n", "operator test $c and $v");
-                        }
+#                        for($i=1;$i<=count($cols);++$i) {
+                    #            sql_ok("select $z from $table where seq=$i\n", "operator test $c and $v");
+                    sql_ok("select $z from $table\n", "operator test $c and $v");
+#                        }
                 }
         }
 }
