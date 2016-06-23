@@ -118,7 +118,8 @@ function sql_ok($sql, $test_name) {
 	$expected = file_get_contents($r);
 	if($result !== $expected) { 
 		fail($test_name);
-		if($SQ->DAL->my_error()) diag("SQL:\n" . $SQ->DAL->my_error() . "\n");
+		echo "FAILED SQL: $sql\n";
+		if($SQ->DAL->my_error()) diag($SQ->DAL->my_error() . "\n");
 		$e = print_r(unserialize($expected),true);
 		$r = print_r(unserialize($result),true);
 		echo "EXPECT: $e\nRESULT: $r\n";
