@@ -157,8 +157,10 @@ sql_ok("update $table set i1u = 253 where i1u > 253",'adjust i1u');
 sql_ok("update $table set i8 = -9223372036854775806 where i8 < -9223372036854775806",'adjust i8');
 sql_ok("update $table set i4 = -2147483646 where i4 < -2147483646",'adjust i4');
 
-#foreach($cols as $col) {
-#	for($i=1;$i<=count($vals);++$i) {
-#		sql_ok("select $col from $table where seq=$i",'verify data for ' . $col . " at seq $i");
-#	}
-#}
+sql_ok("insert into fact select * from fact","insert select");
+
+foreach($cols as $col) {
+	for($i=1;$i<=count($vals);++$i) {
+		sql_ok("select $col from $table where seq=$i",'verify data for ' . $col . " at seq $i");
+	}
+}

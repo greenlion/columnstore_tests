@@ -1,0 +1,65 @@
+<?php
+require_once('table.inc');
+
+#operator tests
+$op = array(
+#'$1 & $2',
+#'$2 ~ $2',
+#'$1 | $2'
+#'$1 ^ $2',
+#'$1 DIV $2',
+#'$1 / $2',
+#'$1 = $2',
+#'$1 <=> $2',
+#'$1 > $2',
+#'$1 >= $2',
+#"$1 LIKE $2",
+#"$1 NOT LIKE $2",
+#"$1 LIKE CONCAT($2,'%')",
+#"$1 IS NOT TRUE",
+#"$1 IS TRUE",
+#"$1 IS FALSE",
+#"$1 IS NULL",
+#"$1 IS NOT NULL",
+#"BINARY($1)", 
+#"$1 << $2",
+#"$1 >> $2",
+#"$1 < $2",
+#"$1 <= $2",
+#"$1 - $2",
+#"$1 + $2",
+#"$1 % $2",
+#"$1 MOD $2",
+#"$1 NOT $2",
+#"$1 ! $2",
+#"$1 NOT BETWEEN $1 and $2",
+#"$1 BETWEEN $1 and $2",
+#"$1 AND $2",
+#"$1 AND NOT $2",
+#"NOT $1",
+#"$1 OR $2",
+#"$1 OR NOT $2",
+#"$1 REGEXP(CONCAT($2,'*'))",
+#"$1 NOT REGEXP(CONCAT($2,'*'))",
+#"$1 REGEXP($2)",
+#"$1 RLIKE(CONCAT($2,'*'))",
+#"$1 NOT RLIKE(CONCAT($2,'*'))",
+#"$1 RLIKE($2)",
+#"$1 || $2",
+#"$1 SOUNDS LIKE $2",
+#"$1 * $2",
+"$1 XOR $2"
+);
+foreach($op as $o) {
+        foreach($cols as $c) {
+                foreach($vals as $v) {
+                        $z = str_replace("$1", $v, $o);
+                        $z = str_replace("$2", $c, $z);
+#                        for($i=1;$i<=count($cols);++$i) {
+                    #            sql_ok("select $z from $table where seq=$i\n", "operator test $c and $v");
+                    sql_ok("select $z from $table\n", "operator test $c and $v");
+#                        }
+                }
+        }
+}
+

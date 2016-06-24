@@ -1,0 +1,3 @@
+<?php
+require_once('table.inc');
+//sql_ok("insert into fact select * from fact");
