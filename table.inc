@@ -41,17 +41,17 @@ r1  real,
 -- b1  bit(1),
 -- b64 bit(64),
 d   date,
-dt  datetime,
+dt  datetime
 -- ts  timestamp,
 -- t   time, 
 -- y2  year(2),
 -- y4  year(4),
 -- c0  char(0),
-c1  char(1),
-c2  char(255),
+-- -- c1  char(1),
+-- --c2  char(255),
 -- vc0 varchar(0),
-vc1 varchar(1),
-vc2 varchar(255)
+-- -- vc1 varchar(1),
+-- -- vc2 varchar(255)
 -- vb0 varbinary(0),
 -- vb1 varbinary(1),
 -- vb2 varbinary(255),
@@ -80,7 +80,7 @@ sql_ok($sql, 'row count');
 
 $cols = array(
 'i1','i2','i4','i8','i1u','i2u','i4u','i8u','d5','f1','f2','f23', 'f24','f53',
-'p1','p2','p23','p24','p53','r1', 'd','dt','c1','c2','vc1','vc2');
+'p1','p2','p23','p24','p53','r1', 'd','dt'/*,'c1','c2','vc1','vc2'*/);
 
 // print_r($cols);
 
