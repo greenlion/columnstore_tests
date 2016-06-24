@@ -47,10 +47,9 @@ $op = array(
 #"$1 RLIKE($2)",
 #"$1 || $2",
 #"$1 SOUNDS LIKE $2",
-"$1 * $2",
-#"$1 XOR $2"
+#"$1 * $2",
+"$1 XOR $2"
 );
-sql_ok('set sql_mode=pipes_as_concat');
 foreach($op as $o) {
         foreach($cols as $c) {
                 foreach($vals as $v) {
