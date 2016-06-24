@@ -45,9 +45,9 @@ $op = array(
 #"$1 RLIKE(CONCAT($2,'*'))",
 #"$1 NOT RLIKE(CONCAT($2,'*'))",
 #"$1 RLIKE($2)",
-"$1 || $2",
+#"$1 || $2",
 #"$1 SOUNDS LIKE $2",
-#"$1 * $2",
+"$1 * $2",
 #"$1 XOR $2"
 );
 sql_ok('set sql_mode=pipes_as_concat');
