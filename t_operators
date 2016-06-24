@@ -22,7 +22,7 @@ $op = array(
 #"$1 IS NULL",
 #"$1 IS NOT NULL",
 #"BINARY($1)", 
-"$1 << $2",
+#"$1 << $2",
 #"$1 >> $2",
 #"$1 < $2",
 #"$1 <= $2",
@@ -45,11 +45,12 @@ $op = array(
 #"$1 RLIKE(CONCAT($2,'*'))",
 #"$1 NOT RLIKE(CONCAT($2,'*'))",
 #"$1 RLIKE($2)",
-#"$1 || $2",
+"$1 || $2",
 #"$1 SOUNDS LIKE $2",
 #"$1 * $2",
 #"$1 XOR $2"
 );
+sql_ok('set sql_mode=pipes_as_concat');
 foreach($op as $o) {
         foreach($cols as $c) {
                 foreach($vals as $v) {
